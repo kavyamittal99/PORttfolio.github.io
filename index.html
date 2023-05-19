@@ -8,6 +8,8 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    
     <title>Portfolio</title>
     <link rel="icon" href="avtar.png" type="image/avtar.png">
 </head>
@@ -16,12 +18,49 @@
 <!--<video autoplay muted loop id="myVideo">
     <source src="video5.mp4" type="video/mp4">
   </video>-->
+ 
   <script src="front.js"></script>
 
     <span class="icon-menu">
       <span class="bar"></span>
       <span class="bar"></span>
   </span>
+ 
+ 
+  <ul class="menu scroll-nav d-flex">
+    <li>
+        <a class="scroll-to" href="index.html#home">
+            <span>Home</span> <i class="las la-home"></i>
+        </a>
+    </li>
+    <li>
+        <a class="scroll-to" href="index.html#about">
+            <span>About</span> <i class="lar la-user"></i>
+        </a>
+    </li>
+    <li>
+      <a class="scroll-to" href="index.html#portfolio">
+          <span>EDUCATION</span> <i class="las la-school"></i>
+      </a>
+  </li>
+ 
+    <li>
+        <a class="scroll-to" href="index.html#skills">
+            <span>Skills</span> <i class="las la-shapes"></i>
+        </a>
+    </li>
+    <li>
+        <a class="scroll-to" href="index.html#portfolio">
+            <span>Projects</span> <i class="las la-grip-vertical"></i>
+        </a>
+    </li>
+
+    <li>
+        <a class="scroll-to" href="index.html#contact">
+            <span>Contact</span> <i class="las la-envelope"></i>
+        </a>
+    </li>
+</ul>
 
   <div class="sidebar">
     <div class="transbox">
@@ -92,47 +131,74 @@
   </div>
  </div>
 </section>
-<!--<section class="skill">
+<div class="skill-section">
   <a class="mi">MY </a><a class="adv">Advantages</a>
-  <div class="skillset"> 
-    <div class="border">
-    <div class="htm">
-     <div class="fa fa-html5"></div>
-     <div class="progress"></div>
-    </div>
-  </div>
-  <div class="border">
-    <div class="css">
-     <img class="imagess" src="css.png">
-     <div class="progress"></div>
-    </div>
-  </div>
-  <div class="border">
-    <div class="js">
-     <img class="imagess" src="js.png">
-     <div class="progress"></div>
-    </div>
-  </div>
-  <div class="border">
-    <div class="c">
-     <img class="imagess" src="c.png">
-     <div class="progress"></div>
-    </div>
-  </div>
-  <div class="border">
-    <div class="cpp">
-     
-     <div class="progress"></div>
-    </div>
-  </div>
-  <div class="border">
-    <div class="github">
+  <div skill="padding">
+  <div class="skill-container">
+     <div class="skill-card">
+      <img src="html.png" class="skill-img" alt="">
+     <h1 class="skill-name">HTLM</h1>
     
-     <div class="progress"></div>
-    </div>
+      
+     </div>
+     <div class="skill-card">
+      <img src="css.png" class="skill-img" alt="">
+      <h1 class="skill-name">CSS</h1>
+      <div class="skill-level">98%</div>
+      </div>
+     <div class="skill-card">
+      <img src="js.png" class="skill-img" alt="">
+      <h1 class="skill-name">JS</h1>
+      <div class="skill-level">98%</div>
+     </div>
+     <div class="skill-card">
+      <img src="c.png" class="skill-img" alt="">
+      <h1 class="skill-name">C</h1>
+      <div class="skill-level">98%</div>
+     </div>
+     <div class="skill-card">
+      <img src="cpp.png"class="skill-img" alt="">
+      <h1 class="skill-name">C++</h1>
+      <div class="skill-level">98%</div>
+     </div>
+     <div class="skill-card">
+      <img src="vs.jpeg" class="skill-img" alt="">
+      <h1 class="skill-name">VS CODE</h1>
+      <div class="skill-level">98%</div>
+     </div>
+     <div class="skill-card">
+      <img src="GitHub.png" class="skill-img" alt="">
+      <h1 class="skill-name">GITHUB</h1>
+      <div class="skill-level">98%</div>
+     </div>
   </div>
-  </div>
-</section>-->
+</div>
+</div>
+<h5 id="hul">GET IN TOUCH</h5>
+<div class="cr">
+
+<form> 
+    
+    <label for="fname">First Name</label>
+    <input type="text" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text"  name="lastname" placeholder="Your last name..">
+    
+    <label for="email">E-mail</label>
+    <input type="text"  name="e-mail" placeholder="Your e-mail..">
+    <label for="message">Message</label>
+    <input type="text"  name="e-mail" placeholder="Enter your message..">
+
+
+
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+ 
 </body>
 
 </html>
